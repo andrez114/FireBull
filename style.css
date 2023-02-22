@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: black;
+    color: #ffffff
+}
+
+h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+/* navbar */
+.offcanvas-body {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    font-family: 'Philosopher', sans-serif;
+    color: #f3f2f0;
+    margin-left: 2rem;
+    font-size: large;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    font-size: larger;
+    color: #cd1717;
+}
+
+/*----------------- inicio-------------------- */
+
+
+#inicio {
+    height: 400px;
+    position: relative;
+
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("images/inicio.jpg");
+
+    /* Add the blur effect */
+    filter: blur(1.63px) brightness(1.04);
+    -webkit-filter: blur(1.63px) brightness(0.50);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-40%, -30%);
+    z-index: 2;
+    width: 70%;
+    padding: 20px;
+    text-align: start;
+}
+
+
+/* -------------------novedades----------------- */
+
+.tarjeta_novedades {
+    margin-bottom: 1.5rem;
+    background-color: rgb(43, 44, 44);
+}
+
+.tarjeta_imagen {
+    width: 100%;
+
+}
+
+
+
+.contenedor_imagen {
+
+    background-image: url("images/1.png");
+
+
+    /* Full height */
+    height: 300px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido_imagen {
+    font-size: large;
+    color: #ffffff;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* ------------consejos-------------- */
+
+
+.columna-consejos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* beneficios */
+
+.columna-consejos i {
+    color: red;
+    font-size: 3.5rem;
+    transition: all 0.2s ease-in;
+}
+
+
+.contenedor_subscribcion {
+
+    background-image: url("images/2.jpg");
+
+    /* Full height */
+    height: 250px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iconos-redes-sociales a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+}
+
+
+/* origin.html */
+
+.bg-image_origin {
+    /* The image used */
+    background-image: url("images/origin.jpg");
+
+    /* Add the blur effect */
+    filter: blur(1.63px) brightness(1.04);
+    -webkit-filter: blur(1.63px) brightness(0.50);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text_origin {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* tienda.html */
+
+.imagenes-productos {
+    max-width: 300px;
+    max-height: 300px;
+
+    
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+
+
+
+
+/* cambiar de tema al ser oscuro */
+
+/* @media(prefers-color-scheme:dark) {
+    body {
+        filter: invert(100%);
+        background-color: rgb(29, 31, 32) !important;
+    }
+
+    img{
+        filter: invert(100%);
+    }
+} */

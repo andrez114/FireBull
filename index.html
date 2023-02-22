@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="pagina web de FireBull">
+    <meta name="keywords" content="HTML,CSS,bootstrap,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBull | Venta de Grills</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+    <!-- iconos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- barra de navegación -->
+
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-none d-lg-block px-2" href="#">
+                <img src="images/logo.svg" width="150" alt="Logo de la página web">
+            </a>
+
+
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasExampleLabel">FireBull</h3>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="origin.html">Origen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#novedades">Collection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#consejos">Carven</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- inicio -->
+
+    <section id="inicio">
+        <div class="bg-image"></div>
+        <div class="bg-text">
+            <h3 class="display-1">Asadores de Carbón</h3>
+            <p>nada supera el sabor de asado que solo puede crearse en un asador de carbón. </p>
+        </div>
+    </section>
+
+
+    <!-- novedades -->
+
+    <div class="d-flex flex-column m-5 text-center">
+        <h2 class="mb-5 display-5">Lleva tu parrilla al siguiente nivel</h2>
+        <p clas="display-1">Ya sea por pasatiempo, una reunión familiar, un ritual entre amigos o simplemente porque
+            te gusta llevar tu pasión más allá en FireBull te podemos ayudar</p>
+    </div>
+
+    <section id="novedades">
+        <div class="container">
+            <h3 class="pb-3">Novedades</h3>
+            <div id="carrusel" class="carousel slide" data-bs-touch="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col text-center">
+                                <div class="card tarjeta_novedades">
+                                    <img class="card-img-top tarjeta_imagen" src="images/producto_1.jpg"
+                                        alt="producto 1">
+                                    <div class="card-body">
+                                        <h4 class="card-title">GRILL 2 / A GAS</h4>
+                                        <p class="card-text">Con sus 2 quemadores y encendido electrónico te permite
+                                            ahorrar mucho tiempo y despreocuparte por el humo y otras
+                                            incomodidades del carbón,</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div class="card tarjeta_novedades">
+                                    <img class="card-img-top tarjeta_imagen" src="images/producto_2.jpg"
+                                        alt="producto 2">
+                                    <div class="card-body">
+                                        <h4 class="card-title">GRILL 2 / A GAS DARK</h4>
+                                        <p class="card-text">Esta parrilla cuenta con 24,000 BTU en total y las rejillas
+                                            de cocción de acero recubiertas de porcelana crean marcas
+                                            perfectas para dorar cada vez.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div class="card tarjeta_novedades">
+                                    <img class="card-img-top tarjeta_imagen" src="images/producto_3.jpg"
+                                        alt="producto 3">
+                                    <div class="card-body">
+                                        <h4 class="card-title">GRILL 2 / A GAS SIlVER</h4>
+                                        <p class="card-text">Cuenta con dos parrillas, una en la base y otra levadiza.
+                                            Con botón de encendido eléctrico. Posee una base de piedras volcánicas para
+                                            distribuir mejor el calor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col text-center">
+                                <div class="card tarjeta_novedades">
+                                    <img class="card-img-top tarjeta_imagen" src="images/producto_4.jpg"
+                                        alt="producto 4">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Asador De Carbón Móvil</h4>
+                                        <p class="card-text">Asador De Carbón Portátil Con Ruedas hecho con resistente
+                                            hierro que asegura un tiempo de vida prolongado
+                                            del producto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div class="card tarjeta_novedades">
+                                    <img class="card-img-top tarjeta_imagen" src="images/producto_5.jpg"
+                                        alt="producto 5">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Asador Con Ahumador Tapa Parrillas</h4>
+                                        <p class="card-text">parrilla modelo Tambor con parrilla de ángulo hecha de
+                                            acero inoxidable, ademas cuenta con doble mesa de apoyo y una
+                                            tapa para realizar ahumados e infinidades de deliciosas recetas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div class="card tarjeta_novedades">
+                                    <img class="card-img-top tarjeta_imagen" src="images/producto_6.jpg"
+                                        alt="producto 6">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Parrilla de gas y carbón de doble función</h4>
+                                        <p class="card-text">Equipado con una cámara de parrilla de carbón y gas, y una
+                                            cámara de combustión desplazada adjunta, este ahumador y
+                                            parrilla multiusos le permite asar a su manera.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <div class="contenedor_imagen container-fluid">
+        <div class="d-flex justify-content-end text-end">
+            <div class="contenido_imagen m-md-5">
+                <p>PAQUETE DE PROMOCIÓN + REGALOS</p>
+                <h1 class="display-3">Paquete travel</h1>
+                <p>Llévatelo por sólo $16,499.00</p>
+                <a href="#" class="btn btn-danger">Compra ahora</a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="consejos" id="consejos">
+        <div class="container text-center mt-md-5">
+            <h2 class="display-5">trucos y consejos</h2>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="columna-consejos">
+                    <img src="images/encender.jpg" class="img-fluid" alt="imagen consejo Encender">
+                    <h1>Enciende</h1>
+                    <p>Encuentra todo lo necesario para encender el carbón</p>
+                    <a href="#" class="btn btn-danger">encender el asador</a>
+                </div>
+                <div class="columna-consejos">
+                    <img src="images/cocinar.jpg" class="img-fluid" alt="imagen consejo cocina">
+                    <h1>Cocinar</h1>
+                    <p>Conoce e implementa el métodos de
+                        cocción en tus asadores.</p>
+                    <a href="#" class="btn btn-danger">Métodos de cocción</a>
+                </div>
+                <div class="columna-consejos">
+                    <img src="images/limpiar.jpg" class="img-fluid" alt="imagen consejo Limpiar">
+                    <h1>Limpia</h1>
+                    <p>Limpia de manera correcta y protege tu asador
+                        favorito con los mejores accesorios.</p>
+                    <a href="#" class="btn btn-danger">mantener y Limpiar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="beneficios">
+        <div class="container text-center pt-5 pb-5">
+            <h2>¿Porqué comprar en FireBull?</h2>
+            <div class="row row-cols-md-3">
+                <div class=" columna-consejos col-6">
+                    <i class="bi bi-truck"></i>
+                    <h3>Envio Gratis</h3>
+                    <p>En compras mayores de $1,699.</p>
+                </div>
+                <div class=" columna-consejos col-6">
+                    <i class="bi bi-award"></i>
+                    <h3>Garantpías</h3>
+                    <p>Contamos con más de 10 años de garantía</p>
+                </div>
+                <div class=" columna-consejos col">
+                    <i class="bi bi-cart-check-fill"></i>
+                    <h5>Productos Exclusivos</h5>
+                    <p>Encuentra productos que no puedes encontrar en ningún otro lado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class=" contenedor_subscribcion container-fluid">
+        <div class="row d-flex justify-content-between text-center">
+            <div class="col-md-8 pt-md-5">
+                <h1 class="display-5">Unete a Nuestra comunidad</h1>
+            </div>
+            <div class="col-md-4 pt-md-5">
+                <p>Subscríbete a nuestro boletín de noticias y forma parte de los mejores.</p>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <a href="#" class="btn btn-danger">registro</a>
+                    </div>
+                    <input type="email" class="form-control" id="email" placeholder="correo electronico">
+                </div>
+                <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center mt-2">
+                    <a href="https://twitter.com/andrezmillans" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://github.com/andrez114" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-pinterest"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/oscar-andr%C3%A9s-millan-salda%C3%B1a" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/andresmillans/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid mt-3 text-center bg-danger">
+            <p>Creado por Oscar Millan (2023) ©</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
